@@ -5,10 +5,10 @@ const calculator = {
   subtract: (a, b) => {
     return a - b;
   },
-  mult: (a, b) => {
+  multiply: (a, b) => {
     return a * b;
   },
-  div: (a, b) => {
+  divide: (a, b) => {
     return a / b;
   },
 };
