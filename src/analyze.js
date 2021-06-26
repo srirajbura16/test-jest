@@ -12,4 +12,4 @@ function analyze(array) {
   };
 }
 
-console.log(analyze([1, 8, 3, 4, 2, 6]));
+module.exports = analyze;
