@@ -1,4 +1,4 @@
-function ceasarCipher(str, num) {
+function caesarCipher(str, num) {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz';
   let encrypted_str = '';
 
@@ -12,8 +12,8 @@ function ceasarCipher(str, num) {
       encrypted_str += new_char;
     }
   });
-  console.log(encrypted_str);
+
   return encrypted_str;
 }
 
-module.exports = ceasarCipher;
+module.exports = caesarCipher;
